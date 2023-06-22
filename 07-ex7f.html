@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ex7f</title>
+</head>
+<body>
+  <script>
+    function convertTemp(degrees, unit) {
+      if(unit==='C'){
+        return `${(degrees*9/5)+32}F`;
+      }
+      else if(unit==='F'){
+        return `${(degrees-32)*5/9}C`;
+      }
+    }
+    console.log(convertTemp(86,'F'));
+  </script>
+</body>
+</html>
